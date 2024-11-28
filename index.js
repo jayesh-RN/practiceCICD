@@ -6,7 +6,7 @@ const hostname = '0.0.0.0';
 
 const port = 3000;
 
-const use = "for cicd";
+const use = "For learning cicd triggers to pupeline take infinity";
 
 const server = createServer((req, res) => {
     res.statusCode = 200;
