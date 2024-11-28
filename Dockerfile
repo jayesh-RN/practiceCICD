@@ -1,4 +1,3 @@
-# Use the official Node.js image as the base image
 FROM node:18
 
 # Set the working directory inside the container
@@ -13,7 +12,6 @@ COPY . .
 
 EXPOSE 3000
 
-# Command to start the server
 CMD ["node", "index.js"]
 
 
