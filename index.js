@@ -11,7 +11,7 @@ const use = "For learning cicd triggers to pupeline take infinity + 1";
 const server = createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World with test 5');
+    res.end('Hello World with test 6');
 });
 
 server.listen(port, hostname, () => {
