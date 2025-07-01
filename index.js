@@ -15,13 +15,6 @@ const server = createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.end('Hello World with test 10');
 });
-
-
-
-
-
-
-
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
