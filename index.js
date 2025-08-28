@@ -22,7 +22,7 @@ const server = createServer((req, res) => {
         </head>
         <body style="margin:0; font-family: Arial, sans-serif; background: linear-gradient(120deg, #6a11cb, #2575fc); color:white; display:flex; align-items:center; justify-content:center; height:100vh;">
             <div style="text-align:center;">
-                <h1 style="font-size:3rem; margin-bottom:10px;">Hello World 🌍</h1>
+                <h1 style="font-size:3rem; margin-bottom:10px;">Hello World</h1>
                 <p style="font-size:1.2rem;">With test check... redeploy — check ✔️</p>
             </div>
         </body>
